@@ -1,0 +1,32 @@
+{
+  "name": "web-midi-note-stream",
+  "version": "1.0.0",
+  "description": "Takes in a stream of midi events and outputs objects with note/frequency information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RangerMauve/web-midi-note-stream.git"
+  },
+  "keywords": [
+    "midi",
+    "web",
+    "note",
+    "stream",
+    "frequency",
+    "press",
+    "device"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/web-midi-note-stream/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/web-midi-note-stream",
+  "dependencies": {
+    "midiutils": "0.0.4",
+    "through2": "^0.6.3"
+  }
+}
